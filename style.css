@@ -1,0 +1,98 @@
+/* Réinitialisation des styles de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles globaux */
+body {
+    font-family: 'Arial', sans-serif; /* Police moderne */
+    background-color: #f4f4f4; /* Couleur d'arrière-plan */
+    padding: 20px; /* Espacement autour du contenu */
+}
+
+/* Conteneur principal */
+.container {
+    max-width: 800px; /* Largeur maximale */
+    margin: 20px auto; /* Centrer le conteneur */
+    padding: 20px; /* Espacement interne */
+    background-color: #fff; /* Arrière-plan blanc */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Ombre douce */
+}
+
+/* Titre principal */
+h1 {
+    text-align: center; /* Centrer le titre */
+    color: #333; /* Couleur du texte */
+    font-size: 2.5em; /* Taille de police */
+    margin-bottom: 20px; /* Marge en bas */
+}
+
+/* Styles pour chaque station */
+.station {
+    border: 1px solid #ddd; /* Bordure légère */
+    border-radius: 8px; /* Coins arrondis */
+    padding: 15px; /* Espacement interne */
+    margin-bottom: 15px; /* Marge en bas */
+    background-color: #fafafa; /* Arrière-plan léger */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Animation de transition */
+}
+
+.station:hover {
+    background-color: #e0f7fa; /* Couleur d'arrière-plan au survol */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Ombre plus prononcée */
+}
+
+/* Styles pour les titres des stations */
+.station h2 {
+    margin: 0 0 10px; /* Marge en bas */
+    font-size: 24px; /* Taille de police */
+    color: #00796b; /* Couleur du titre */
+}
+
+/* Styles pour le texte des stations */
+.station p {
+    margin: 5px 0; /* Marge */
+    font-size: 16px; /* Taille de police */
+    color: #555; /* Couleur du texte */
+}
+
+/* Styles pour le message d'erreur */
+.error {
+    color: #dc3545; /* Couleur rouge pour les messages d'erreur */
+    text-align: center; /* Centrer le texte d'erreur */
+    margin: 20px 0; /* Marge */
+    font-size: 1.2em; /* Taille de police pour le message d'erreur */
+}
+
+/* Bouton de rafraîchissement */
+.refresh-button {
+    display: block; /* Affichage en bloc */
+    margin: 20px auto; /* Marge */
+    padding: 10px 20px; /* Espacement interne */
+    background-color: #00796b; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur de pointeur */
+    font-size: 16px; /* Taille de police */
+    transition: background-color 0.3s; /* Animation de transition */
+}
+
+.refresh-button:hover {
+    background-color: #004d40; /* Couleur de fond au survol */
+}
+
+/* Styles pour le conteneur des stations */
+#stations {
+    margin-top: 20px; /* Marge en haut */
+}
+
+/* Animation de chargement */
+.loader {
+    text-align: center; /* Centrer le loader */
+    font-size: 18px; /* Taille de la police */
+    color: #00796b; /* Couleur du loader */
+}
